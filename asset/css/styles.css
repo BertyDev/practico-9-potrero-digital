@@ -1,0 +1,507 @@
+@font-face {
+    font-family: "titulo";
+    src: url("../font/BRITANIC.TTF") format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+
+/* colores */
+
+/* #CEE5D0 #F3F0D7 #F7D59C  */
+
+.bg-marron {
+  background-color:#5E454B !important;
+}
+
+.text-banana {
+    color: #F3F0D7;
+}
+
+.btn-primary {
+    color: #5E454B;
+    background-color: #F3F0D7;
+    border-color: #F3F0D7;
+}
+.btn-primary:hover {
+    color: #5E454B;
+    background-color: #f8f2ba;
+    border-color: #f8f2ba;
+}
+.btn-primary::after {
+    color: #5E454B;
+    background-color: #f8f2ba;
+    border-color: #f8f2ba;
+}
+
+.title-badge {
+    text-align: center;
+    background-color: #F3F0D7;
+    margin: 2% auto;
+    color: #5E454B;
+    border-radius: 1.25rem;
+    width: 100%;
+    box-shadow: 1px 1px 10px -3px gray;
+    padding: 1%;
+    text-decoration: underline;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: "titulo";
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 0%;
+    padding: 0%;
+}
+
+a:hover {
+    color: #c28500;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #CEE5D0;
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
+}
+
+p {
+    font-size: 1rem;
+    padding: 0% 2% 0% 2%;
+    max-width: 100%;
+    max-height: 100%;
+    text-justify: auto;
+    text-align: justify;
+}
+
+iframe {
+    margin: 2%;
+    border: 0;
+    box-sizing: content-box;
+}
+
+.logo {
+    width: 7rem;
+    height: 5rem;
+    margin-left: 1rem;
+    box-shadow: 1px 1px 10px -3px gray;
+    border-radius: 1.25rem;
+}
+
+.img-cook {
+    margin: 2%;
+    border-radius: 2.25rem;
+    box-shadow: 1px 1px 10px -3px gray;
+    width: 25%;
+    transition: transform 1s;
+}
+
+.content-image {
+    background-color: #F3F0D7;
+    color: #5E454B;
+    border-radius: 1.25rem;
+    width: 100%;
+    box-shadow: 1px 1px 10px -3px whitesmoke;
+}
+
+.content-aside {
+    background-color: #5E454B;
+    margin: 0px auto;
+    color: #F3F0D7;
+    border-radius: 1.25rem;
+    width: 100%;
+    height: auto !important;
+    word-wrap: break-word;
+    padding: 2%;
+    margin-bottom: 2%;
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.content-cook {
+    background-color: #5E454B;
+    margin: 0px auto;
+    color: #F3F0D7;
+    border-radius: 1.25rem;
+    width: 70%;
+    height: auto;
+    word-wrap: break-word;
+    padding: 1%;
+   
+    float: left;
+    box-sizing: border-box;
+}
+
+.content-cook p {
+    font-family: 'Caramel', cursive;
+}
+
+
+aside {
+
+    width: 28%;
+    float: right;
+}
+
+aside ul {
+    margin-top: 1rem;
+    padding-left: 0;
+}
+
+aside li {
+    display: block;
+
+}
+
+aside li a {
+    display: block;
+    padding: 0.80em 1.25em;
+    letter-spacing: 0.20em;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: 0;
+    color: whitesmoke;
+}
+
+.subcontent-cook {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle-badge-aside {
+    text-align: left;
+    background-color: #F3F0D7;
+    margin: 1% auto;
+    color: #5E454B;
+    border-radius: 1.25rem;
+    width: 95%;
+    box-shadow: 1px 1px 10px -3px gray;
+    padding: 1%;
+    font-size: medium;
+    text-decoration: underline;
+    box-sizing: content-box;
+    font-family: "Stick No Bills";
+
+}
+
+.subtitle-badge-aside h3 {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.subtitle-badge {
+    text-align: left;
+    background-color: #F3F0D7;
+    margin: 1% auto;
+    color: #5E454B;
+    border-radius: 1.25rem;
+    width: 95%;
+    box-shadow: 1px 1px 10px -3px gray;
+    padding: 1%;
+    font-size: x-large;
+    text-decoration: underline;
+    box-sizing: content-box;
+    font-family: "Stick No Bills";
+}
+
+.subtitle-badge h3 {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+nav {
+
+    display: inline-block;
+    width: 100%;
+    padding-right: 2%;
+
+}
+
+nav ul {
+
+    float: right;
+    right: 0;
+    margin-top: 1.5rem;
+}
+
+nav li {
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+nav li a {
+    display: block;
+    padding: 0.80em 1.25em;
+    letter-spacing: 0.20em;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: 0;
+    color: #5E454B;
+
+}
+
+nav li:hover a,
+nav li.active a,
+nav li.active span {
+    color: #c28500;
+
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+header {
+    position: relative;
+
+    overflow: hidden;
+    margin-top: 2%;
+    margin: 2% auto;
+    width: 100%;
+    background-color: #F3F0D7;
+    box-shadow: 1px 1px 10px -3px gray;
+    border-radius: 1.25rem;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+    background: #F3F0D7;
+    padding: 1rem;
+    margin: 50px 0;
+    width: 85%;
+    margin: auto;
+    border-radius: 1.25rem;
+    box-shadow: 1px 1px 10px -3px gray;
+}
+
+#contact h3 {
+    color: rgb(165, 127, 0);
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    color: rgb(106, 82, 0);
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 95%;
+    padding: 0;
+    width: 95%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #AAA;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 103%;
+    border: none;
+    background: rgb(130, 78, 0);
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+    background: rgb(138, 90, 0);
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #999;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+footer {
+    position: relative;
+    height: 5rem;
+    overflow: hidden;
+    margin-top: 2%;
+    margin: 2% auto;
+    width: 100%;
+    background-color: #F3F0D7;
+    box-shadow: 1px 1px 10px -3px gray;
+    border-radius: 1.25rem;
+    padding: 1%;
+    align-items: center;
+
+}
+
+footer a:hover {
+    color: #c28500;
+}
+
+footer p {
+    font-size: x-large;
+    font-weight: 500;
+    box-sizing: content-box;
+    font-family: "Stick No Bills";
+    width: 100%;
+    text-align-last: center;
+
+}
+
+.card:hover {
+    transition: transform 0.3s;
+    transform: scale(1.02);
+}
+
+section{
+    display: flex;
+}
+/* celular */
+@media(max-width:575px){
+    section{    
+      flex-direction: column;
+      gap: 12px;
+    }
+    aside {
+        margin: 0px auto;
+        width: 100%;
+    }
+    .banana{
+        display: inline-flex;
+        font-family: "titulo";
+        color: #5E454B;
+        font-size: x-large;
+    }
+    .content-cook {
+        margin: 0px auto;
+        width: 100%;
+    }
+    article{
+      width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+    h1 {
+        font-size: 2rem;
+        font-family: "titulo";
+    }
+  }
+/* tablets */
+  @media(max-width:768px) and (min-width:575px){
+    section{    
+      gap: 6px;
+    }
+    aside {
+        margin: 0px auto;
+        width: 40%;
+    }
+    .content-cook {
+        margin: 0px auto;
+        width: 60%;
+    }
+    article{
+      width: 100%;
+    }
+    .banana{
+        display: none;
+    }
+  }
+/* compu */
+  @media(min-width:768px){
+    section{    
+      gap: 12px;
+    }
+    aside {
+        margin: 0px auto;
+        width: 25%;
+    }
+    .content-cook {
+        margin: 0px auto;
+        width: 75%;
+    }
+    article{
+      width: 100%;
+    }
+    .banana{
+        display: none;
+    }
+  }
+ 
